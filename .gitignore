@@ -1,0 +1,21 @@
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# System
+.DS_Store
+Thumbs.db
+
+# Uploads
+uploads/products/*
+!uploads/products/.gitkeep
+
+# Config
+config/db.php
+config/email.php
+
+# Logs
+*.log
